@@ -1,8 +1,10 @@
 #!/bin/env python3
 
 symlinks = [
+	(sdir + '/View/Helper/BootstrapFormHelper.php', cakedir + '/View/Helper/BootstrapFormHelper.php'),
 	(sdir + '/css/bootstrap.min.css', cakedir + '/webroot/css/bootstrap.min.css'),
 	(sdir + '/css/bootstrap-theme.min.css', cakedir + '/webroot/css/bootstrap-theme.min.css'),
+	(sdir + '/css/bootstrap-custom.css', cakedir + '/webroot/css/bootstrap-custom.css'),
 	(sdir + '/fonts/glyphicons-halflings-regular.eot', cakedir + '/webroot/css/fonts/glyphicons-halflings-regular.eot'),
 	(sdir + '/fonts/glyphicons-halflings-regular.svg', cakedir + '/webroot/css/fonts/glyphicons-halflings-regular.svg'),
 	(sdir + '/fonts/glyphicons-halflings-regular.ttf', cakedir + '/webroot/css/fonts/glyphicons-halflings-regular.ttf'),
