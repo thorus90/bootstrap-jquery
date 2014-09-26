@@ -2,6 +2,7 @@
 
 symlinks = [
 	(sdir + '/View/Helper/BootstrapFormHelper.php', cakedir + '/View/Helper/BootstrapFormHelper.php'),
+	(sdir + '/View/Helper/BootstrapHtmlHelper.php', cakedir + '/View/Helper/BootstrapHtmlHelper.php'),
 	(sdir + '/css/bootstrap.min.css', cakedir + '/webroot/css/bootstrap.min.css'),
 	(sdir + '/css/bootstrap-theme.min.css', cakedir + '/webroot/css/bootstrap-theme.min.css'),
 	(sdir + '/css/bootstrap-custom.css', cakedir + '/webroot/css/bootstrap-custom.css'),
