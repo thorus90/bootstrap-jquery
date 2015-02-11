@@ -14,4 +14,5 @@ symlinks = [
 	(sdir + '/js/jquery.min.js', cakedir + '/webroot/js/jquery.min.js'),
 	(sdir + '/js/jquery.min.map', cakedir + '/webroot/js/jquery.min.map'),
 	(sdir + '/js/jquery.tablesorter.min.js', cakedir + '/webroot/js/jquery.tablesorter.min.js'),
+	(sdir + '/js/jquery.csv.0.71.min.js', cakedir + '/webroot/js/jquery.csv.0.71.min.js'),
 ]
