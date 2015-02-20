@@ -11,6 +11,7 @@ symlinks = [
 	(sdir + '/fonts/glyphicons-halflings-regular.ttf', cakedir + '/webroot/fonts/glyphicons-halflings-regular.ttf'),
 	(sdir + '/fonts/glyphicons-halflings-regular.woff', cakedir + '/webroot/fonts/glyphicons-halflings-regular.woff'),
 	(sdir + '/js/bootstrap.min.js', cakedir + '/webroot/js/bootstrap.min.js'),
+	(sdir + '/js/index.js', cakedir + '/webroot/js/index.js'),
 	(sdir + '/js/jquery.min.js', cakedir + '/webroot/js/jquery.min.js'),
 	(sdir + '/js/jquery.min.map', cakedir + '/webroot/js/jquery.min.map'),
 	(sdir + '/js/jquery.tablesorter.min.js', cakedir + '/webroot/js/jquery.tablesorter.min.js'),
