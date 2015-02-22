@@ -11,7 +11,13 @@
                 echo $this->fetch('meta');
                 echo $this->fetch('css');
                 echo $this->fetch('script');
-        ?>
+    if ( isset($javascript) )
+    {
+        echo '<script type="text/javascript">$(document).ready(function(){
+            ' . $javascript . '
+        });</script>';
+    }
+?>
 </head>
 <body>
 <?php 
