@@ -54,5 +54,5 @@ for confline in lines_in_files:
                 found = True
     if not found:
         with open(dfile, "a") as wfile:
-            wfile.write(line)
+            wfile.write(line + '\n')
             print("Added " + line + " to " + dfile)
