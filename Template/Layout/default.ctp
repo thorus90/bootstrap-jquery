@@ -25,7 +25,22 @@
     {
         echo $this->element('navbar');
     }
-    echo $this->Session->flash();
+    $flash = explode('/',$this->Flash->render());
+    if( $flash[0] != '0' && $flash[0] != '1' && $flash[0] != '2' && $flash[0] != '3' )
+    {
+        echo $this->Flash->render();
+    }
+    else
+    {
+        echo '<div class="container">';
+            echo '<div class="alert alert-';
+            if( $flash[0] == "0" ){ echo 'success'; }
+            if( $flash[0] == "1" ){ echo 'warning'; }
+            if( $flash[0] == "2" ){ echo 'danger'; }
+            if( $flash[0] == "3" ){ echo 'info'; }
+            echo '">' . $flash[1] . '</div>';
+        echo '</div>';
+    }
     echo $this->fetch('content');
 ?>
 </body>
